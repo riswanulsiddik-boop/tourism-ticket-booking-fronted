@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new way</title>
+    <style>
+        body{
+            margin:0;
+            padding:10px;
+            background-color:white;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .hd{
+            background:orange;
+            width:90%;
+            font-size:30px;
+            border-radius:10px;
+            padding:5px;
+            margin-bottom:5px;
+            text-align: center;
+        }
+        .hd p{
+            margin:15px;
+        }
+        .box{
+        
+            text-align:center;
+           
+            display: flex;
+           flex-wrap:wrap;
+           gap:20px;
+           justify-content: center;
+            font-size: larger;
+           
+        
+        
+    
+        }
+        .br img{
+            width:100%;
+            height:180px;
+        }
+
+
+        .br p{
+            
+            font-size:14px;
+            margin:10px;
+            font-weight:bold;
+        }
+        .price{
+            color:green;
+            font-size:18px;
+        font-weight:bold;        }
+        .br button{
+            background-color:orange;
+            color: black;
+            border:none;
+            font-size:15px;
+            margin:10px 0 15px;
+            padding:10px 20px;
+            border-radius:5px;
+        }
+        .br h3{
+            margin:10px 0;
+            color:darkblu
+        }
+
+       .br button:hover{
+        background-color:darkorange;
+       }
+       .video {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 24px;
+            padding: 24px;
+            margin: 20px auto;
+            max-width: 1100px;
+            background: linear-gradient(135deg, #172554, #0f766e);
+            border-radius: 20px;
+          
+        }
+
+        .background-video {
+            display: block;
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            object-fit: cover;
+            border-radius: 14px;
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .background-video:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 14px 26px rgba(0, 0, 0, 0.35);
+        }
+       
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css">
+
+</head>
+<body>
+   <center> <div class="hd">
+       <p class="h">Welcome to new way....<i class="fa-solid fa-plane fa-float fa-3x"></i></p>
+    </div><br><br></center>
+    <div class="video">
+        
+            <video class="background-video"autoplay loop playsinline>
+  <source src="13612122_3840_2160_25fps.mp4" type="video/mp4">
+</video>
+        
+      
+<video class="background-video" autoplay loop playsinline>
+  <source src="5302184_India_Indian_1280x720.mp4" type="video/mp4">
+  
+</video>
+      </div>
+  
+        <!-- <video src="12148048_3840_2160_30fps.mp4" controls autoplay loop width="1000" height="200"></video></div> -->
+        <!-- <video src="12148048_3840_2160_30fps.mp4" controls autoplay loop width="100%" height="500"></video> -->
+    </div><br><br>
+
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/F02_MVdAqCk?si=aavY9EqE58WnlBK7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen autoplay></iframe></div> -->
+    <div class="box">
+
+        <div class="br"><img src="https://irisholidays.com/keralatourism/wp-content/uploads/2025/09/best-places-to-visit-in-tamil-nadu.jpg" alt="Tamil nadu">
+        <h3>Tamil nadu</h3>
+        <p>Explore beautiful places in tamil nadu.</p>
+        <p>starting from 2000</p>
+        <button>view details</button></div><br>
+        <div class="br"><img src="https://cdn1.tripoto.com/media/filter/tst/img/1442601/Image/1585831096_3_2.jpg.webp"alt="Kerala">
+        <h3>KERALA</h3>
+        <p>enjoy green landscaps,backwter and nature.</p>
+        <p> starting from 3000</p>
+        <button>view details</button></div><br>
+        <div class="br"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0F-ItwIsFjuHFdPqwLpC9K4FeuejbOSUqsptQMNCW-w&s=10"alt="Bangalore">
+        <h3>BANGALORE</h3>
+        <p>Explore parks ,shoppingg areas and city attractions.</p>
+        <p>starting from 5000</p><br>
+        <button>view details</button></div><br>
+        <div class="br"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlIu8v3YXqp1BIoTcPrP0Fug1bDpCX3junxb9LIMxrog&s=10"alt="nepal">
+        <h3>Nepal</h3>
+        <p>Explore parks ,shoppingg areas and city attractions.</p>
+        <p>starting from 8000</p><br>
+        <button>view details</button></div><br>
+         <div class="br"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh1HNj3CWmQK1iDrziZDuNZmE-M9irVOm5MPE6eDx92w&s=10" alt="Kashmir" width=100px>
+            <h3>Kashmir</h3>
+            <p> see snowy mountains,lakes and beautiful scenery.</p>
+            <p> starting from 8000</p>
+            <button>view details</button></div><br>
+           </div>
+           
+
+
+</body>
+</html>
